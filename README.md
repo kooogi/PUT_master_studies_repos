@@ -12,6 +12,7 @@ Each project provides insights into various aspects of software engineering, fro
 
 The repository is organized by subject, making it easy to navigate and explore projects within specific domains.
 
+```
 .
 ├── QMESE/
 │ ├── QMESE_coding_is_maj_peszy/
@@ -47,6 +48,7 @@ The repository is organized by subject, making it easy to navigate and explore p
 │ ├── README.md
 │ └── [Code and other files]
 └── README.md (This file)
+```
 
 ## Subject-Specific Project Overviews
 
