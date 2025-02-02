@@ -16,39 +16,36 @@ The repository is organized by subject, making it easy to navigate and explore p
 ├── QMESE/
 │ ├── QMESE_coding_is_maj_peszy/
 │ │ ├── README.md
-│ │ ├── [Code and other files]
-│ ├── QMESE_WellNamedCode-main/
-│ │ ├── README.md
-│ │ ├── [Code and other files]
-│
+│ │ └── [Code and other files]
+│ └── QMESE_WellNamedCode-main/
+│ ├── README.md
+│ └── [Code and other files]
 ├── SDM/
-│ ├── SDM_FirstAssignment-main/
-│ │ ├── README.md
-│ │ ├── [Code and other files]
-│
+│ └── SDM_FirstAssignment-main/
+│ ├── README.md
+│ └── [Code and other files]
 ├── TSD/
 │ ├── SDM_FirstAssignment-master/
 │ │ ├── README.md
-│ │ ├── [Code and other files]
+│ │ └── [Code and other files]
 │ ├── TSD_Django-main/
 │ │ ├── README.md
-│ │ ├── [Code and other files]
+│ │ └── [Code and other files]
 │ ├── TSD_Docker-main/
 │ │ ├── README.md
-│ │ ├── [Code and other files]
+│ │ └── [Code and other files]
 │ ├── TSD_GraphQL-master/
 │ │ ├── README.md
-│ │ ├── [Code and other files]
+│ │ └── [Code and other files]
 │ ├── TSD_JPA-SpringBoot-Hibernate-main/
 │ │ ├── README.md
-│ │ ├── [Code and other files]
+│ │ └── [Code and other files]
 │ ├── TSD_Rails-main/
 │ │ ├── README.md
-│ │ ├── [Code and other files]
-│ ├── TSD_Ruby-main/
-│ │ ├── README.md
-│ │ ├── [Code and other files]
-│
+│ │ └── [Code and other files]
+│ └── TSD_Ruby-main/
+│ ├── README.md
+│ └── [Code and other files]
 └── README.md (This file)
 
 ## Subject-Specific Project Overviews
