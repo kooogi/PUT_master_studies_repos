@@ -19,12 +19,12 @@ The repository is organized by subject, making it easy to navigate and explore p
 │ │ ├── [Code and other files]
 │ ├── QMESE_WellNamedCode-main/
 │ │ ├── README.md
-│ └ └── [Code and other files]
+│ │ ├── [Code and other files]
 │
 ├── SDM/
 │ ├── SDM_FirstAssignment-main/
 │ │ ├── README.md
-│ └ └── [Code and other files]
+│ │ ├── [Code and other files]
 │
 ├── TSD/
 │ ├── SDM_FirstAssignment-master/
@@ -47,7 +47,7 @@ The repository is organized by subject, making it easy to navigate and explore p
 │ │ ├── [Code and other files]
 │ ├── TSD_Ruby-main/
 │ │ ├── README.md
-│ └ └── [Code and other files]
+│ │ ├── [Code and other files]
 │
 └── README.md (This file)
 
@@ -118,7 +118,7 @@ While this repository primarily serves as a showcase of my work at Poznan Univer
 
 ## Connect With Me
 
-- **[\[Your LinkedIn Profile URL\]](https://www.linkedin.com/in/bartoszchwilkowski/)**
-- **[\[Your GitHub Profile URL\]](https://github.com/kooogi)**
+- **[\[LINKEDIN\]](https://www.linkedin.com/in/bartoszchwilkowski/)**
+- **[\[GITHUB\]](https://github.com/kooogi)**
 
 Thank you for visiting this repository! I hope it provides valuable insight into my journey in software engineering.
