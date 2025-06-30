@@ -1,10 +1,11 @@
 # Poznan University of Technology - Master's Level Projects Repository
 
-This repository serves as a comprehensive collection of projects, assignments, and contributions completed during my Master's level studies at Poznan University of Technology. It showcases my learning journey and practical application of knowledge gained across three key subjects:
+This repository serves as a comprehensive collection of projects, assignments, and contributions completed during my Master's level studies at Poznan University of Technology. It showcases my learning journey and practical application of knowledge gained across this 1,5 year:
 
-- **Quality Management and Experimental Software Engineering (QMESE)**
-- **Technologies of Software Development (TSD)**
-- **Software Design and Modeling (SDM)**
+- **Frontend Development (FD)** - sem3
+- **Quality Management and Experimental Software Engineering (QMESE)** - sem2
+- **Software Design and Modeling (SDM)** - sem1
+- **Technologies of Software Development (TSD)** - sem1
 
 Each project provides insights into various aspects of software engineering, from theoretical concepts to practical implementations.
 
@@ -14,45 +15,74 @@ The repository is organized by subject, making it easy to navigate and explore p
 
 ```
 .
+├── FD/
+│   ├── README.md
+│   ├── angular-todo-app/
+│   │   ├── README.md
+│   │   └── [Code and other files]
+│   ├── backend-todo-app/
+│   │   ├── README.md
+│   │   └── [Code and other files]
+│   ├── Projekt1/
+│   │   └── [Code and other files]
+│   ├── react-todo-app/
+│   │   ├── README.md
+│   │   └── [Code and other files]
+│   └── svelte-todo-app/
+│       ├── README.md
+│       └── [Code and other files]
 ├── QMESE/
-│ ├── QMESE_coding_is_maj_peszy/
-│ │ ├── README.md
-│ │ └── [Code and other files]
-│ └── QMESE_WellNamedCode-main/
-│ ├── README.md
-│ └── [Code and other files]
+│   ├── QMESE_coding_is_maj_peszy/
+│   │   ├── README.md
+│   │   └── [Code and other files]
+│   └── QMESE_WellNamedCode-main/
+│       ├── README.md
+│       └── [Code and other files]
 ├── SDM/
-│ └── SDM_FirstAssignment-main/
-│ ├── README.md
-│ └── [Code and other files]
+│   └── SDM_FirstAssignment-main/
+│       ├── README.md
+│       └── [Code and other files]
 ├── TSD/
-│ ├── SDM_FirstAssignment-master/
-│ │ ├── README.md
-│ │ └── [Code and other files]
-│ ├── TSD_Django-main/
-│ │ ├── README.md
-│ │ └── [Code and other files]
-│ ├── TSD_Docker-main/
-│ │ ├── README.md
-│ │ └── [Code and other files]
-│ ├── TSD_GraphQL-master/
-│ │ ├── README.md
-│ │ └── [Code and other files]
-│ ├── TSD_JPA-SpringBoot-Hibernate-main/
-│ │ ├── README.md
-│ │ └── [Code and other files]
-│ ├── TSD_Rails-main/
-│ │ ├── README.md
-│ │ └── [Code and other files]
-│ └── TSD_Ruby-main/
-│ ├── README.md
-│ └── [Code and other files]
-└── README.md (This file)
+│   ├── SDM_FirstAssignment-master/
+│   │   ├── README.md
+│   │   └── [Code and other files]
+│   ├── TSD_Django-main/
+│   │   ├── README.md
+│   │   └── [Code and other files]
+│   ├── TSD_Docker-main/
+│   │   ├── README.md
+│   │   └── [Code and other files]
+│   ├── TSD_GraphQL-master/
+│   │   ├── README.md
+│   │   └── [Code and other files]
+│   ├── TSD_JPA-SpringBoot-Hibernate-main/
+│   │   ├── README.md
+│   │   └── [Code and other files]
+│   ├── TSD_Rails-main/
+│   │   ├── README.md
+│   │   └── [Code and other files]
+│   └── TSD_Ruby-main/
+│       ├── README.md
+│       └── [Code and other files]
+└── README.md
 ```
 
 ## Subject-Specific Project Overviews
 
-### 1. Quality Management and Experimental Software Engineering (QMESE)
+### 1. Frontend Development (FD) - sem3
+
+This section highlights my experience with modern frontend technologies and frameworks. The projects in this section demonstrate:
+
+- **Single Page Applications (SPA):** Building SPAs using Angular, React, and Svelte.
+- **Component-Based Architecture:** Designing reusable and maintainable UI components.
+- **State Management:** Implementing state management solutions in frontend applications.
+- **RESTful API Integration:** Connecting frontend apps to backend services.
+- **Styling:** Using CSS, SCSS, and modern styling techniques for responsive design.
+- **Tooling:** Utilizing build tools, linters, and development servers for efficient workflows.
+
+The goal of this course is to provide hands-on experience in building interactive, user-friendly web applications using the latest frontend technologies.
+
+### 2. Quality Management and Experimental Software Engineering (QMESE) - sem2
 
 This section contains projects focused on applying principles and methodologies from both Quality Management and Experimental Software Engineering. The course aims to provide the knowledge in:
 
@@ -76,7 +106,18 @@ _ Performing reviews and inspections on processes and software.
 - Collecting data, validating it, and analysing using statistical methods.
 - Using meta-analysis, surveys, and case studies.
 
-### 2. Technologies of Software Development (TSD)
+### 3. Software Design and Modeling (SDM) - sem1
+
+This section focuses on the design and modeling aspects of software development, with an emphasis on object-oriented principles, design patterns and UML. This course aims to enhance my skills in:
+
+- **Designing Software:** Applying best practices and design patterns for creating robust software systems.
+- **Object-Oriented Concepts:** Utilizing concepts like abstraction, encapsulation, inheritance, and polymorphism.
+- **Design Patterns:** Implementing and utilizing design patterns to solve recurring design problems.
+- **UML Modeling:** Creating various diagrams (Class, Sequence, Use Case, etc.) to model and visualize software.
+- **Evaluating Design Quality**: Apply software metrics to evaluate and improve the design.
+- **Source Code Quality**: Applying best practices for software design and source code.
+
+### 4. Technologies of Software Development (TSD) - sem1
 
 This section showcases my proficiency in various software development technologies and tools, covering a wide range of topics, including:
 
@@ -92,17 +133,6 @@ This section showcases my proficiency in various software development technologi
 - **Development Layers:** Designing data, interface and communication layer in software.
 
 The aim of this course is to develop my skills in solving problems related to software creation using different technologies, develop teamwork skills and ability to learn new technologies.
-
-### 3. Software Design and Modeling (SDM)
-
-This section focuses on the design and modeling aspects of software development, with an emphasis on object-oriented principles, design patterns and UML. This course aims to enhance my skills in:
-
-- **Designing Software:** Applying best practices and design patterns for creating robust software systems.
-- **Object-Oriented Concepts:** Utilizing concepts like abstraction, encapsulation, inheritance, and polymorphism.
-- **Design Patterns:** Implementing and utilizing design patterns to solve recurring design problems.
-- **UML Modeling:** Creating various diagrams (Class, Sequence, Use Case, etc.) to model and visualize software.
-- **Evaluating Design Quality**: Apply software metrics to evaluate and improve the design.
-- **Source Code Quality**: Applying best practices for software design and source code.
 
 ## How to Explore
 

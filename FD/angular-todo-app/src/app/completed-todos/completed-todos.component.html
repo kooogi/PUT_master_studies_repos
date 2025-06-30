@@ -1,0 +1,61 @@
+<div class="container mt-4">
+  <div class="mb-3">
+    <a
+      *ngIf="currentListId"
+      [routerLink]="['/lists', currentListId]"
+      class="btn btn-sm btn-outline-secondary"
+    >
+      « Back to Active Tasks
+    </a>
+  </div>
+
+  <div
+    *ngIf="currentList"
+    class="py-3 px-4 mb-4 bg-light rounded-3 text-center"
+  >
+    <h1>
+      {{ currentList.name }} - Completed Tasks
+      <span class="badge bg-success text-white"
+        >{{ completedTodos.length }} completed</span
+      >
+    </h1>
+  </div>
+
+  <div id="completed-todo-list" class="row justify-content-center">
+    <div class="col-sm-8 col-md-6">
+      <ul class="list-group">
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+          *ngFor="let todo of completedTodos"
+        >
+          <span class="text-decoration-line-through text-muted">
+            {{ todo.text }}
+          </span>
+          <div>
+            <button
+              (click)="onMarkAsNotDone(todo)"
+              class="btn btn-sm btn-outline-warning me-2"
+              title="Mark as not done"
+            >
+              Undo
+            </button>
+            <button
+              (click)="onDeleteCompletedTodo(todo._id)"
+              class="btn btn-sm btn-outline-danger"
+              title="Delete permanently"
+            >
+              Delete
+            </button>
+          </div>
+        </li>
+      </ul>
+      <p
+        *ngIf="completedTodos.length === 0 && currentListId"
+        class="text-center mt-3"
+      >
+        No tasks have been completed in this list yet.
+      </p>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
