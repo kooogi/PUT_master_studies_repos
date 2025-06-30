@@ -17,13 +17,13 @@ The repository is organized by subject, making it easy to navigate and explore p
 .
 ├── FD/
 │   ├── README.md
+│   ├── Projekt1/
+│   │   └── [Code and other files]
 │   ├── angular-todo-app/
 │   │   ├── README.md
 │   │   └── [Code and other files]
 │   ├── backend-todo-app/
 │   │   ├── README.md
-│   │   └── [Code and other files]
-│   ├── Projekt1/
 │   │   └── [Code and other files]
 │   ├── react-todo-app/
 │   │   ├── README.md
@@ -32,20 +32,17 @@ The repository is organized by subject, making it easy to navigate and explore p
 │       ├── README.md
 │       └── [Code and other files]
 ├── QMESE/
-│   ├── QMESE_coding_is_maj_peszy/
+│   ├── QMESE_WellNamedCode-main/
 │   │   ├── README.md
 │   │   └── [Code and other files]
-│   └── QMESE_WellNamedCode-main/
+│   └── QMESE_coding_is_maj_peszy-main/
 │       ├── README.md
 │       └── [Code and other files]
 ├── SDM/
-│   └── SDM_FirstAssignment-main/
+│   └── SDM_FirstAssignment-master/
 │       ├── README.md
 │       └── [Code and other files]
 ├── TSD/
-│   ├── SDM_FirstAssignment-master/
-│   │   ├── README.md
-│   │   └── [Code and other files]
 │   ├── TSD_Django-main/
 │   │   ├── README.md
 │   │   └── [Code and other files]
